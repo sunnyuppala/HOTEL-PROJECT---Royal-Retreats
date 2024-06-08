@@ -1,0 +1,68 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #93b7be;
+}
+
+.hotel-logo img {
+    width: 100px;
+}
+
+.hotel-info p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    padding: 1rem 2rem;
+}
+
+.receipt-container {
+    padding: 1rem;
+    border: 1px solid #9bacb0;
+    border-radius: 4px;
+}
+
+.receipt-container h2,
+.receipt-container h3 {
+    margin: 0;
+    padding: 1rem 0;
+}
+
+.receipt-container p {
+    margin: 0.5rem 0;
+}
+
+.check-in-out,
+.dates,
+.guest-details,
+.room-details,
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px dotted #a3bcc1;
+}
+
+.total-amount {
+    font-weight: bold;
+}
+
+.disclaimer {
+    font-size: 12px;
+    color: #aaa;
+    text-align: center;
+}

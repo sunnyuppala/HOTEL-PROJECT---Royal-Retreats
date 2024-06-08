@@ -1,0 +1,498 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: #fff;
+}
+.navbarbuttons{
+  color:#2d2c2c;
+  text-decoration: none;
+  font-family: "Electra LT W01 Display";
+
+}
+.contactus a{
+  color:#2d2c2c ;
+  text-decoration:none ;
+  padding-right: 20px;
+
+}
+.anchortag{
+    margin-top: 10px;
+    height:90px;
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    height:100%;
+    width:20%;
+
+}
+.logo img{
+    height:100%;
+    width:130px;
+}
+.text{
+    width:60%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text p{
+    font-family: "Electra LT W01 Display";
+    color:#826837;
+    padding-right: 210px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: 0.400rem;
+}
+.login {
+    width:10%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color:#2d2c2c;
+    text-decoration: none;
+    
+
+}
+.login a{
+  color:#2d2c2c ;
+  text-decoration: none;
+}
+.logo img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100%;
+    margin-left: 10px;
+}
+.anchortag2{
+    height:90px;
+    width:100%;
+    background-color: #eeedea;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu{
+    width:10%;
+    padding-left:10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    
+
+}
+.menu a{
+    color:black;
+    text-decoration: none;
+}
+.dis{
+    height: 100%;
+    width:70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'DIN Next W01 Bold';
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+
+}
+.booknow{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    color: #f2f2f2;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.booknow button {
+    height:30px;
+    width: 120px;
+    display: block;
+    border-radius: 1rem;
+    border: #848485;
+    background-color: #1d1d41;
+     color:rgb(255, 255, 255);
+     font-size:400;
+     font-family: sans-serif;
+}
+.booknow button:hover{
+    background-color: #826837;
+    color:rgb(255, 255, 255);
+}
+.image{
+    height:400px;
+    width:100%;
+    background-image: url("./image1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: block;
+    align-items: center;
+}
+.parentelements{
+    padding-top:100px;
+}
+.elements{
+
+    background-color:#fff;
+  color:#765d2e;
+  opacity: .7;
+    height:75px;
+    width:250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elements p{
+    font-size:2.3rem;
+    font-family:"Electra LT W01 Display";
+}
+.offerr{
+    background-color:#00052c;
+  color:#f2f2f2;
+  opacity: .7;
+    height:40px;
+    width:450px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offerr p{
+    font-family:"Electra LT W01 Display";
+    font-size: 1.4rem;
+    padding-right: 4px;
+}
+.currentoffers{
+    height:150px;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #00052c;
+
+}
+.currentoffers p{
+    font-family:"DIN Next W01 Bold";
+    font-size: 1.3rem;
+    font-weight: 600px;
+}
+.hotels{
+    height:700px;
+    background-color: #eeedea;
+    display: flex;
+    
+}
+.one{
+    height:100%;
+    width:35%;
+
+}
+.image1{
+    height:225px;
+    padding: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat ;
+
+}
+.middle{
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:15px;   
+}
+.last{
+    width:100%;
+    height:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.seedetails{
+    position: relative;
+    font-size: 1.5rem;
+    padding-bottom: 0.5rem;
+    font-weight: 700px;
+    color: #1d1d41;
+    font-family: "DIN Next W01 Bold";
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: 3;
+}
+.hotels2{
+    height:700px;
+    background-color: #eeedea;
+    display: flex;
+    
+}
+.section3{
+    height:400px;
+   
+}
+.banner{
+    height: 350px;
+    width:100%;
+    background-image: url("./edvin-johansson-rlwE8f8anOc-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+
+.div{
+    height: 100px;
+    width:100px;
+    border:1px solid black;
+    background-color: #eeedea;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HEADER *
+  
+  
+  
+  /* PRODUCTS */
+  .product {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+    height:400px;
+  }
+  
+  .product-category {
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+  }
+  
+  .product-container {
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .product-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .product-card {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 550px;
+    margin-right: 40px;
+  }
+  
+  .product-image {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+  }
+  
+  .product-thumb {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .discount-tag {
+    position: absolute;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    color: #ff7d7d;
+    right: 10px;
+    top: 10px;
+    text-transform: capitalize;
+  }
+  
+  .card-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: #fff;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  .product-card:hover .card-btn {
+    opacity: 1;
+  }
+  
+  .card-btn:hover {
+    background: #ff7d7d;
+    color: #fff;
+  }
+  
+  .pre-btn,
+  .nxt-btn {
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+    cursor: pointer;
+    z-index: 8;
+  }
+  
+  .pre-btn {
+    left: 0;
+    transform: rotate(180deg);
+  }
+  
+  .nxt-btn {
+    right: 0;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+    opacity: 0.2;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+    opacity: 1;
+  }
+  
+  .collection-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .collection {
+    position: relative;
+  }
+  
+  .collection img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .collection p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    text-transform: capitalize;
+  }
+  
+  .collection:nth-child(3) {
+    grid-column: span 2;
+    margin-bottom: 10px;
+  }
+  
+
+
+
+
+
+  footer{
+    margin-top: 20px;;
+}
+.one2{
+    height:40px;
+    background-color: #847963;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+.two2 {
+   background-color: #847963;
+   height:400px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.two2 ul a{
+   display: block;
+   color: #dddddd;
+   padding-top: 5px;
+    
+}
+.two2 ul p{
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+     border: 0px;
+ }
+.three2{
+    background-color:#847963 ;
+    border-top:0.5px solid white;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoo
+{
+    height: 49px;
+    width:150px;
+    background-size: cover;
+    background-image: url("/html_projects/amazonclone/reallogo.png");
+}
+.lastt{
+    height:40px;
+    background-color: #847963 ;
+    border-top:0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lastt p{
+    color:white;
+    font-size: 0.7rem;
+}
+  

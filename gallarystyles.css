@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 15px;
+  overflow y: auto;
+  }
+  
+  img {
+    max-width:100%;
+    height: auto;
+    display: block;
+  }
+  header {
+      text-align:center;
+      font face="time new roman";
+      color="black";
+  }
